@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-self: center;
+    background-color: rgb(79, 14, 209);
+    border-radius: 25px;
+    padding:40px 40px;
+    width: 50%;
+    height: auto;
+    align-self: center;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    font-family:'Righteous',monospace ;
+    font-size: 28px;
+    color: lavender;
+    text-shadow:  2px 2px #ff0000;
+    padding: 4px;
+}
+#quote{
+    text-align: center;
+    color: lavender;
+    font-size: 18px;
+    font-family:'Pacifico',monospace ;
+    padding: 20px;
+}
+#writter{
+    text-align: right;
+    color: lavender;
+    font-size: 18px;
+    font-family:'Pacifico',monospace ;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(198, 197, 197);
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 4px;
+}
+.button i {
+    background-color: lavender;
+    border:1px solid rgb(113, 42, 255) ;
+    border-radius: 25px;
+    padding: 12px;
+}
+.button i:hover{
+    background-color: rgb(113, 42, 255);
+    border: 1px solid lavender;
+    color: lavender;
+    cursor: pointer;
+}
+
+.button div:nth-child(2){
+    background-color: lavender;
+    border:1px solid rgb(113, 42, 255) ;
+    border-radius: 25px;
+    padding: 12px 15px;
+}
+
+.button div:nth-child(2):hover{
+    background-color: rgb(113, 42, 255);
+    border: 1px solid lavender;
+    color: lavender;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 70%;
+    }
+}
